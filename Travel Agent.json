@@ -21,7 +21,7 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
       "position": [
-        400,
+        448,
         -112
       ],
       "id": "90aff22c-4cf3-4b7a-bdb2-00bf2429105c",
@@ -34,8 +34,8 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        272,
-        96
+        520,
+        112
       ],
       "id": "ad2b486f-4d54-44d7-9480-72dbd5a93628",
       "name": "Google Gemini Chat Model",
