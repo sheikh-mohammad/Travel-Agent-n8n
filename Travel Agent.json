@@ -13,12 +13,31 @@
       "id": "bfd237cb-29bc-4134-be71-0520e48d9cd8",
       "name": "When chat message received",
       "webhookId": "e39942c0-0aa9-456c-a446-d5d3ba9bf21e"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        176,
+        0
+      ],
+      "id": "90aff22c-4cf3-4b7a-bdb2-00bf2429105c",
+      "name": "AI Agent"
     }
   ],
   "connections": {
     "When chat message received": {
       "main": [
-        []
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     }
   },
