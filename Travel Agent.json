@@ -37,14 +37,8 @@
         48,
         208
       ],
-      "id": "4d48e751-278f-4c88-a5e1-d4df798b6d66",
-      "name": "Google Gemini Chat Model",
-      "credentials": {
-        "googlePalmApi": {
-          "id": "xOeRf62ccxIBOxdD",
-          "name": "Google Gemini(PaLM) Api account"
-        }
-      }
+      "id": "ad2b486f-4d54-44d7-9480-72dbd5a93628",
+      "name": "Google Gemini Chat Model"
     }
   ],
   "connections": {
